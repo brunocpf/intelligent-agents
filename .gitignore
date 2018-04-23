@@ -34,3 +34,51 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# IDE settings etc
+/.vs/
+/.vscode/
+/.idea/
+
+# MS Windows files
+desktop.ini
+thumbs.db
+
+# MacOS files
+.DS_Store
+._*
+
+# Tensorflow Model Info
+/models
+/summaries
+training/models
+training/summaries
+
+
+# Environemnt logfile
+*unity-environment.log
+
+# Tensorflow Sharp Files
+/Assets/ML-Agents/Plugins/Android*
+/Assets/ML-Agents/Plugins/iOS*
+/Assets/ML-Agents/Plugins/Computer*
+/Assets/ML-Agents/Plugins/System*
+
+# Generated doc folders
+/docs/html
+
+# Mac hidden files
+*.DS_Store
+*/.ipynb_checkpoints
+*/.idea
+*.pyc
+*.idea/misc.xml
+*.idea/modules.xml
+*.iml
+*.xml
+*.cache
+*/build/
+*/dist/
+*.egg-info*
+*.eggs*
+*.gitignore.swp
