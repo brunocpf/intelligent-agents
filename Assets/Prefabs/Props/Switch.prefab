@@ -113,7 +113,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 2a6df5f4bffbc431bacfbd2c155375cb, type: 2}
+  - {fileID: 2100000, guid: c612f111396a64b4b92c9777b3241aeb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -172,6 +172,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targets: []
   triggerOnCollision: 1
+  defaultState: 0
+  stateChangePermanent: 1
+  onMaterial: {fileID: 2100000, guid: caac4a648589f88439330fbecbaffaef, type: 2}
+  offMaterial: {fileID: 2100000, guid: c612f111396a64b4b92c9777b3241aeb, type: 2}
 --- !u!114 &114757175273013848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -201,7 +205,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
@@ -266,7 +270,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}

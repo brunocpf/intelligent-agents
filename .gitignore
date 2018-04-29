@@ -53,7 +53,8 @@ thumbs.db
 /summaries
 training/models
 training/summaries
-
+Learning/models
+Learning/summaries
 
 # Environemnt logfile
 *unity-environment.log
