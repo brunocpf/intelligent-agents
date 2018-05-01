@@ -45,6 +45,8 @@ public class RayPerception : MonoBehaviour
                 {
                     if (hit.collider.gameObject.CompareTag(detectableObjects[i]))
                     {
+                        Debug.DrawRay(transform.position + new Vector3(0f, startOffset, 0f),
+                                endPosition, Color.green, 0.01f, true);
                         subList[i] = 1;
                         subList[detectableObjects.Length + 1] = hit.distance / rayDistance;
                         break;
@@ -59,6 +61,7 @@ public class RayPerception : MonoBehaviour
         }
         return perceptionBuffer;
     }
+
 
     /// <summary>
     /// Converts polar coordinate to cartesian coordinate.
